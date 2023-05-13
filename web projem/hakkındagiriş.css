@@ -7,3 +7,78 @@ border-color: black;
 
 
 }
+
+.başlık
+{
+
+text-align: center;
+
+}
+.yazı
+{
+
+text-align: center;
+
+}
+
+.box{
+   width: 50%;
+    max-width:1024px; /*En fazla 1024px olsun  ama  yukardaki width özelliğim de  geçerli olsun*/
+    height:auto;
+    min-height:500px;
+    margin:auto; /* tam ekran olmayan  1024px'lik divi ortalamak için*/
+
+
+height: 600px;
+background-color:#333134;
+padding: 40px;  /* boşluk bırakmak kendi içinde  */
+text-align:center ;   /* yazıyı ortalamak için  */
+margin: auto; /*  divi ortalamak için  */
+font-family: sans-serif; /*  yazının fontu */
+margin-bottom: 5%;
+}
+.box img{
+
+border-radius: 50%; /* fotoğrafı yuvarlamak için */
+cursor: pointer; /*  imleci değişmesi için   */ 
+max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+
+}
+.box img:hover{
+
+transform: scale(0.9); /* üstüne geldiğinde hafif küçülüyor.1 kendi boyutu 1 den büyük yazarsan büyür aşağısı küçültüyor */
+
+}
+
+
+.box p{
+color: #D8B914;
+    text-align: center; /* iki tarafa da yaslıyor */
+}
+.box li{
+    max-width:1024px; /*En fazla 1024px olsun  ama  yukardaki width özelliğim de  geçerli olsun*/
+    height:auto;
+    min-height:500px;
+    margin:auto; /* tam ekran olmayan  1024px'lik divi ortalamak için*/
+
+display: inline-block; /* linkleri yatay çizgiye aldı */
+margin: 2%;
+
+
+}
+.box li a {
+    max-width:1024px; /*En fazla 1024px olsun  ama  yukardaki width özelliğim de  geçerli olsun*/
+    height:auto;
+    min-height:500px;
+    margin:auto; /* tam ekran olmayan  1024px'lik divi ortalamak için*/
+color: white;
+font-size: 60px;
+
+}
+#b{
+
+    color: white;
+}

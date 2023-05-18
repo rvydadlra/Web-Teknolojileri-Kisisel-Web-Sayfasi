@@ -82,3 +82,51 @@ font-size: 60px;
 
     color: white;
 }
+
+
+
+
+.foto img {
+
+border-radius: 50%;
+
+
+
+}
+
+
+
+
+ 
+.foto{
+width: 900px;
+text-align: center;
+}
+.ben{
+
+padding:0 10px 10px 0;
+}
+.foto{
+
+    width: 350px;
+
+    height: 600x;
+    margin: auto;
+    
+}
+.öz{
+  list-style-type: square;
+ 
+  justify-content: center;
+  list-style-position: inside;
+
+height: 200px;
+background-color: #0B0AAC;
+text-align: center;
+margin-top: 2%;
+color: #E7E7E7;
+
+
+}
+
+

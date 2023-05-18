@@ -33,3 +33,4 @@ function displayData(data) {
         articlesContainer.appendChild(articleElement);
     });
 }
+

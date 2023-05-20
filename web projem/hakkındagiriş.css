@@ -128,5 +128,17 @@ color: #E7E7E7;
 
 
 }
+@media screen and (max-width: 768px) {
+    /* Mobil ekran kuralları */
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Tablet ekran kuralları */
+  }
+  
+  @media screen and (min-width: 1025px) {
+    /* Büyük ekran kuralları */
+  }
+  
 
-
+  

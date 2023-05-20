@@ -4,13 +4,13 @@
 
     // Kullanıcı adı ve şifre alanının boş geçilmemesi kontrolü
     if (empty($username) || empty($password)) {
-        header("Location: C:\Users\ruvi-\OneDrive\Masaüstü\web projem\giriş.php");
+        header("Location: index.html");
         exit;
     }
 
     // Kullanıcı adının mail adresi olup olmadığının kontrolü
     if (!filter_var($username, FILTER_VALIDATE_EMAIL)) {
-        header("Location: C:\Users\ruvi-\OneDrive\Masaüstü\web projem\giriş.php");
+        header("Location: index.html");
         exit;
     }
 
@@ -21,7 +21,7 @@
     if ($password === $correctPassword) {
         echo "Hoşgeldiniz $studentNumber";
     } else {
-        header("Location: C:\Users\ruvi-\OneDrive\Masaüstü\web projem\giriş.php");
+        header("Location: index.html");
         exit;
     }
 
